@@ -1,0 +1,22 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+}
+
+.title,
+.sub-title {
+  margin: 0;
+}
+
+.title {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+}
+
+.sub-title {
+  padding-right: 25px;
+  color: #deebf8;
+  font-weight: 800;
+}

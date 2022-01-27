@@ -1,9 +1,16 @@
 .App {
-  text-align: center;
+  background-color: #282d35;
+  height: 100vh;
+}
+
+* {
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100px;
+  width: 100px;
   pointer-events: none;
 }
 
@@ -13,7 +20,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +29,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;

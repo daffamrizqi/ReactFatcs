@@ -1,0 +1,40 @@
+.main-title {
+  font-size: 45px;
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  padding-left: 40px;
+}
+
+.main-container {
+  margin: 0px;
+  color: white;
+  height: 100%;
+  padding: 57px;
+}
+
+.content {
+  padding-left: 30px;
+}
+
+/* mengganti warna pada bullet point list */
+ul {
+  list-style: none;
+}
+li::before {
+  content: "• ";
+  color: #61dafb;
+  font-size: 1.2em;
+}
+
+.main-facts {
+  margin-top: 40px;
+}
+
+.main-facts li {
+  font-family: Inter;
+  font-size: 25px;
+  max-width: 800px;
+  /* padding-block = only specifies top and bottom padding in on go */
+  padding-block: 10px;
+}
